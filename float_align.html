@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float and Align </title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      line-height: 1.5em;
+    }
+    .box{
+      background: lightgray;
+border: 2px solid black;
+padding: 20px;
+margin-bottom: 15px;}
+
+.box p{
+  /* Text Align */
+text-align: left;
+}
+    .container{
+max-width: 960px;
+margin: 50px auto;
+
+    }
+    #box-2{
+      float: left;
+      width: 68%;
+    }
+    #box-3{
+      float: left;
+      width: 30%;
+    }
+    .clear{
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="container"
+   >
+  <div id="box-1" class="box">
+<h3>Heading</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos natus dignissimos ad id reiciendis similique facere culpa dolores sed est.</p>
+  </div>
+  <div id="box-2" class="box">
+<h3>Heading</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos natus dignissimos ad id reiciendis similique facere culpa dolores sed est.</p>
+  </div>
+  <div id="box-3" class="box">
+<h3>Heading</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos natus dignissimos ad id reiciendis similique facere culpa dolores sed est.</p>
+  </div>
+  <div class="clear"></div>
+  <div id="box-4" class="box">
+<h3>Heading</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos natus dignissimos ad id reiciendis similique facere culpa dolores sed est.</p>
+  </div>
+</div>
+</body>
+</html>
